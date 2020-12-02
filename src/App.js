@@ -1,15 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import evolveLogo from './evolveLogo.png'
 import {useEffect} from 'react'
 
 
 function App() {
-
-  useEffect(() => {
-    console.log(document.getElementsByName("body"));
-  });
-
   return (
     <div className="App"> 
       <div style={{background: "rgba(0,0,0,0.5)"}}>
